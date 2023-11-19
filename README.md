@@ -17,3 +17,10 @@ All Projects Source Code: https://www.theblockchaincoders.com/SourceCode
 Official Website: https://www.theblockchaincoders.com
 
 Book 1 -1 Appointment: https://bit.ly/Book-1-1-Appointment
+
+
+<!-- First go in deploy folder : -->
+cd .\deploy
+<!-- To deploy smartcontract and get address run : -->
+npx hardhat run scripts/deploy.js --network polygon_mumbai
+Address = 0x9c0eaC3c2382E72dC968a65361c3d17c002469C5
